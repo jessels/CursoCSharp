@@ -60,7 +60,7 @@ namespace Aula3
                     break;
 
             }*/
-            //Exercicio 3
+            //--------------------------Exercicio 3
             /*
             Console.WriteLine("Digite um valor Inteiro: ");
             var numeroInteiro = int.Parse(Console.ReadLine());
@@ -85,21 +85,23 @@ namespace Aula3
                 break;
 
             }*/
-
+            //--------------------------Exercicio 4 
+            /*
             Console.WriteLine("Quantas pessoas participaram da pesquisa");
             var qtPesquisa = int.Parse(Console.ReadLine());
             var idade = 0;
-            var idadeMedia = 0;
-            for(int i = 0; i< qtPesquisa ; i++)
+            var idadeSoma = 0;
+
+            for (int i = 0; i< qtPesquisa ; i++)
             {
                 Console.WriteLine("qual sua idade");
                 idade = int.Parse(Console.ReadLine());
-                idadeMedia = idade;
-                
+                idadeSoma += idade;
             }
-            
             Console.WriteLine("");
-            Console.WriteLine(idadeMedia);
+            Console.WriteLine("Média de idade dos Voluntários: "+ idadeSoma / qtPesquisa);
+            */
+            
 
 
 

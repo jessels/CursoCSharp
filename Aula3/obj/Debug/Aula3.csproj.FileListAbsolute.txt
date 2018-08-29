@@ -5,3 +5,10 @@ C:\Programação\C#\Telecon\Exercicio1\Aula3\obj\Debug\Aula3.csprojAssemblyRefer
 C:\Programação\C#\Telecon\Exercicio1\Aula3\obj\Debug\Aula3.csproj.CoreCompileInputs.cache
 C:\Programação\C#\Telecon\Exercicio1\Aula3\obj\Debug\Aula3.exe
 C:\Programação\C#\Telecon\Exercicio1\Aula3\obj\Debug\Aula3.pdb
+C:\Programação\C#\Telecon\CursoCSharp\Aula3\bin\Debug\Aula3.exe.config
+C:\Programação\C#\Telecon\CursoCSharp\Aula3\bin\Debug\Aula3.exe
+C:\Programação\C#\Telecon\CursoCSharp\Aula3\bin\Debug\Aula3.pdb
+C:\Programação\C#\Telecon\CursoCSharp\Aula3\obj\Debug\Aula3.csprojAssemblyReference.cache
+C:\Programação\C#\Telecon\CursoCSharp\Aula3\obj\Debug\Aula3.csproj.CoreCompileInputs.cache
+C:\Programação\C#\Telecon\CursoCSharp\Aula3\obj\Debug\Aula3.exe
+C:\Programação\C#\Telecon\CursoCSharp\Aula3\obj\Debug\Aula3.pdb
