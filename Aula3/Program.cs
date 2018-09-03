@@ -71,6 +71,7 @@ namespace Aula3
             }*/
 
             /*
+             --------------------------Exercicio 4 
             var numero = 0;
             while (numero <= 100)
             {
@@ -85,7 +86,7 @@ namespace Aula3
                 break;
 
             }*/
-            //--------------------------Exercicio 4 
+            //Exercicio 5
             /*
             Console.WriteLine("Quantas pessoas participaram da pesquisa");
             var qtPesquisa = int.Parse(Console.ReadLine());
@@ -101,12 +102,16 @@ namespace Aula3
             Console.WriteLine("");
             Console.WriteLine("Média de idade dos Voluntários: "+ idadeSoma / qtPesquisa);
             */
-            
 
+            //Exercicio 6
+            /* Console.WriteLine("Digite um número");
+            var numeroInteiro = int.Parse(Console.ReadLine());
 
-
-
-
+            for (int i = 0; i <= numeroInteiro && numeroInteiro > 0; i--)
+            {
+                Console.WriteLine(numeroInteiro * 2);
+                numeroInteiro--;
+            }*/
 
             Console.ReadKey();
         }
