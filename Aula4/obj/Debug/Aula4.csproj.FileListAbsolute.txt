@@ -1,0 +1,7 @@
+C:\Programação\C#\Telecon\CursoCSharp\Aula4\bin\Debug\Aula4.exe.config
+C:\Programação\C#\Telecon\CursoCSharp\Aula4\bin\Debug\Aula4.exe
+C:\Programação\C#\Telecon\CursoCSharp\Aula4\bin\Debug\Aula4.pdb
+C:\Programação\C#\Telecon\CursoCSharp\Aula4\obj\Debug\Aula4.csprojAssemblyReference.cache
+C:\Programação\C#\Telecon\CursoCSharp\Aula4\obj\Debug\Aula4.csproj.CoreCompileInputs.cache
+C:\Programação\C#\Telecon\CursoCSharp\Aula4\obj\Debug\Aula4.exe
+C:\Programação\C#\Telecon\CursoCSharp\Aula4\obj\Debug\Aula4.pdb
