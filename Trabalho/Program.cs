@@ -27,27 +27,30 @@ namespace Trabalho
             int codigoConstante = 0;
             int alteraproduto = 0;
 
-
-            int qtProdutos=1;
+            int qtProdutos = 1;
 
             string[,] produtos = new string[qtProdutos, 3];
+
+
 
 
             string opcao = "0";
 
             while (opcao != "")
             {
+                
+
                 Console.WriteLine("Selecione uma opção para realizar: 1 - Incluir, 2 - Alterar, 3 - Consultar, 4 - Imprimir todos ,  0 - Sair ");
                 opcao = Console.ReadLine();
-
                 
+
                 switch (opcao)
                 {
                      
                     case "1":
                         
                             Console.Clear();
-                            qtProdutos++;
+                            
                             Console.WriteLine("Você está inserindo um produto");
 
                             for (int i = 0; i < produtos.GetLength(0); i++)
@@ -63,7 +66,7 @@ namespace Trabalho
                                 {
                                     codigoConstante = Convert.ToInt32(produtos[i, codigo]);
                                 }
-                                
+                            
                             }
                         
                         Console.WriteLine("Digite qualquer tecla para voltar: ");
@@ -107,8 +110,8 @@ namespace Trabalho
                         {
                             for (int i = 0; i < produtos.GetLength(0); i++)
                             {
-                                Console.WriteLine("Codigo: " + produtos[i, codigo] +
-                                    " descrição: " + produtos[i, descricao] +
+                                Console.WriteLine("Codigo: " + produtos[i, codigo] + " | " +
+                                    " descrição: " + produtos[i, descricao] + " | " +
                                     " Valor do produto: " + produtos[i, valor]);
                                 
                             }
@@ -123,7 +126,7 @@ namespace Trabalho
                         {
                             Console.WriteLine("Codigo: " + produtos[i, codigo] + " | " +
                                               " Descrição: " + produtos[i, descricao] + " | " +
-                                              " Valor do produto: " + produtos[i, descricao]);
+                                              " Valor do produto: " + produtos[i, valor]);
                         }
 
                         Console.WriteLine("Digite qualquer tecla para voltar: ");
