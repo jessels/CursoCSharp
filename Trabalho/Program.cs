@@ -28,11 +28,7 @@ namespace Trabalho
             int alteraproduto = 0;
             int qtProdutos = 0;
 
-
-
-            
             string[,] produtos = new string[1000, 3];
-
 
             string opcao = "0";
 
@@ -51,7 +47,7 @@ namespace Trabalho
                             
                             Console.WriteLine("Você está inserindo um produto");
                         
-                            for (int i = 0; i < qtProdutos; i++)
+                           /* for (int i = 0; i < qtProdutos; i++)
                             {
                                 Console.WriteLine("Informe o Codigo do Produto: ");
                                 produtos[i, codigo] = Console.ReadLine();
@@ -65,15 +61,14 @@ namespace Trabalho
                                     codigoConstante = Convert.ToInt32(produtos[i, codigo]);
                                 }
                             
-                            }
+                            }*/
                         qtProdutos++;
                         Console.WriteLine("Digite qualquer tecla para voltar: ");
                         opcao = Console.ReadLine();
                         Console.Clear();
 
                         break;
-
-
+                        
                     case "2":
                         Console.Clear();
                         Console.WriteLine("Você está alterando o Produto");
