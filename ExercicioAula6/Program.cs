@@ -18,7 +18,9 @@ namespace ExercicioAula6
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Digite um nome");
-                pessoas[i] = new Pessoa {Nome = Console.ReadLine()};
+                var pessoa = new Pessoa {Nome = Console.ReadLine()};
+
+                pessoas[i] = pessoa;
             }
             Console.WriteLine("-----------------------");
             for (int i = 0; i < 5; i++)
@@ -95,7 +97,8 @@ namespace ExercicioAula6
             {
                 Console.WriteLine(topCinco[i]);
             }*/
-
+            //Exercicio 5
+            /*
             Console.WriteLine("Cadastrando Clientes");
 
             Console.WriteLine("Quantos clientes deseja cadastrar");
@@ -106,14 +109,17 @@ namespace ExercicioAula6
 
             for (int i = 0; i < clientes.Length; i++)
             {
+                var cliente = new Cliente();
                 Console.WriteLine("Informe o Nome do cliente: ");
-                clientes[i] = new Cliente { Nome = Console.ReadLine() };
+                cliente.Nome = Console.ReadLine();
                 Console.WriteLine("Informe a Cidade do cliente: ");
-                clientes[i] = new Cliente { Cidade = Console.ReadLine() };
+                cliente.Cidade = Console.ReadLine();
                 Console.WriteLine("Informe o Bairro do cliente: ");
-                clientes[i] = new Cliente { Bairro = Console.ReadLine() };
+                cliente.Bairro = Console.ReadLine() ;
                 Console.WriteLine("Informe o Estado do cliente: ");
-                clientes[i] = new Cliente { Estado = Console.ReadLine() };
+                cliente.Estado = Console.ReadLine();
+
+                clientes[i] = cliente;
             }
 
             Console.WriteLine("Lista de todos os Clientes: ");
@@ -124,6 +130,32 @@ namespace ExercicioAula6
                 Console.WriteLine("Bairro: " + clientes[i].Bairro);
                 Console.WriteLine("Estado: " + clientes[i].Estado);
             }
+            /*
+            Console.WriteLine("Digite a idade das 10 pessoas");
+            int idadeSoma;
+            var pessoas = new Pessoa[10];
+
+            for (int i = 0; i < pessoas.Length; i++)
+            {
+                var pessoa = new Pessoa();
+                Console.WriteLine("Digite o Nome da pessoa: ");
+                pessoa.Nome = Console.ReadLine() ;
+                Console.WriteLine("Digite a Idade da Pessoa: ");
+                pessoa.Idade = int.Parse(Console.ReadLine());
+
+                pessoas[i] = pessoa;
+                //if (pessoas[i].Idade < 18)
+                //{
+                //    idadeSoma = pessoas[i].Idade;
+                //}
+            }
+            for (int i = 0; i < pessoas.Length; i++)
+            {
+                if(pessoas[i].Idade < 18)
+                {
+                    Console.WriteLine("Pessoa " + pessoas[i].Nome + "é menor de idade");
+                }
+            }*/
 
             Console.ReadLine();
         }
