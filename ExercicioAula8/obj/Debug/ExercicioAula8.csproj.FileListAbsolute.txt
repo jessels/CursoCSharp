@@ -1,0 +1,7 @@
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula8\bin\Debug\ExercicioAula8.exe.config
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula8\bin\Debug\ExercicioAula8.exe
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula8\bin\Debug\ExercicioAula8.pdb
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula8\obj\Debug\ExercicioAula8.csproj.CoreCompileInputs.cache
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula8\obj\Debug\ExercicioAula8.exe
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula8\obj\Debug\ExercicioAula8.pdb
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula8\obj\Debug\ExercicioAula8.csprojAssemblyReference.cache
