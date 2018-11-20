@@ -1,0 +1,7 @@
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula12\bin\Debug\ExercicioAula12.exe.config
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula12\bin\Debug\ExercicioAula12.exe
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula12\bin\Debug\ExercicioAula12.pdb
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula12\obj\Debug\ExercicioAula12.csprojAssemblyReference.cache
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula12\obj\Debug\ExercicioAula12.csproj.CoreCompileInputs.cache
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula12\obj\Debug\ExercicioAula12.exe
+C:\Programação\C#\Telecon\CursoCSharp\ExercicioAula12\obj\Debug\ExercicioAula12.pdb
